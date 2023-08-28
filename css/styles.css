@@ -96,7 +96,7 @@ img {
   content: '';
 }
 .header-link:hover::after,
-.header-link:focus::after{
+.header-link:focus::after {
   background-color: #404bbf;
 }
 .header-link:hover,
@@ -277,50 +277,49 @@ img {
   text-align: center;
   margin-bottom: 8px;
 }
-.soc{
+.soc {
   position: relative;
-  display:flex;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   width: calc((100% - 72px) / 4);
-  gap:24px;
+  gap: 24px;
   justify-content: space-around;
- 
 }
-.icon-soc-fon{
-  fill:#4d5ae5
+.icon-soc-fon {
+  fill: #4d5ae5;
+  transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
-.icon-soc-inst{
+.icon-soc-fon:hover {
+  fill: #404bbf;
+}
+.icon-soc-inst {
   position: absolute;
-  z-index:2;
-  top:12;
+  z-index: 2;
+  top: 12;
   left: -80px;
-  fill:#ffffff;
-  
+  fill: #ffffff;
 }
-.icon-soc-twiter{
+.icon-soc-twiter {
   position: absolute;
-  z-index:2;
-  top:12px;
+  z-index: 2;
+  top: 12px;
   left: -15px;
-  fill:#ffffff;
-  
+  fill: #ffffff;
 }
-.icon-soc-facebook{
+.icon-soc-facebook {
   position: absolute;
-  z-index:2;
-  top:12px;
-  right:-15px;
-  fill:#ffffff;
-  
+  z-index: 2;
+  top: 12px;
+  right: -15px;
+  fill: #ffffff;
 }
-.icon-soc-linkedin{
+.icon-soc-linkedin {
   position: absolute;
-  z-index:2;
-  top:12px;
-  right:-80px;
-  fill:#fff;
-  
+  z-index: 2;
+  top: 12px;
+  right: -80px;
+  fill: #fff;
 }
 /*-- 4 PORTFOLIO ---*/
 
@@ -366,14 +365,13 @@ img {
   color: #ffffff;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.footer-page .container {
+  display: flex;
   align-items: baseline;
 }
-.footer-page .container{
 
- align-items:center;
-}
-
-.footer-text{
+.footer-text {
   display: inline-block;
   max-width: 264px;
 }
@@ -385,7 +383,6 @@ img {
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
- 
 }
 .logo-studio {
   color: #f4f4fd;
@@ -396,56 +393,54 @@ img {
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
-.social-media{
-  margin-top:0;
-  display:inline-block;
+.social-media {
+  margin-top: 0;
+  display: inline-block;
   margin-left: 120px;
-
-} 
-.social-media-tittle{
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.013em;
-margin-bottom: 16px;
 }
-.social-media.soc{ 
+.social-media-tittle {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.013em;
+  margin-bottom: 16px;
+}
+.social-media.soc {
   position: relative;
-  display:flex;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   width: calc((100% - 48px) / 4);
-  gap:16px;
+  gap: 16px;
   justify-content: space-around;
 }
-.social-media .icon-soc-inst{
+.social-media .soc .icon-soc-fon:hover {
+  fill: #31d0aa;
+}
+.social-media .icon-soc-inst {
   position: absolute;
-  z-index:2;
-  top:12;
+  z-index: 2;
+  top: 12px;
   left: -84px;
-  fill:#ffffff;
-  
+  fill: #ffffff;
 }
-.social-media .icon-soc-twiter{
+.social-media .icon-soc-twiter {
   position: absolute;
-  z-index:2;
-  top:12px;
-  left:-20px;
-  fill:#ffffff;
-  
+  z-index: 2;
+  top: 12px;
+  left: -20px;
+  fill: #ffffff;
 }
-.social-media .icon-soc-facebook{
+.social-media .icon-soc-facebook {
   position: absolute;
-  z-index:2;
-  top:12px;
-  right:-20px;
-  fill:#ffffff;
-  
+  z-index: 2;
+  top: 12px;
+  right: -20px;
+  fill: #ffffff;
 }
-.social-media .icon-soc-linkedin{
+.social-media .icon-soc-linkedin {
   position: absolute;
-  z-index:2;
-  top:12px;
-  right:-84px;
-  fill:#fff;
-  
+  z-index: 2;
+  top: 12px;
+  right: -84px;
+  fill: #fff;
 }
