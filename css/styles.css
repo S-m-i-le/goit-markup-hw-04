@@ -180,7 +180,6 @@ img {
 /*-- 2 FEATURE --*/
 
 .visually-hidden {
-  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -278,7 +277,6 @@ img {
   margin-bottom: 8px;
 }
 .soc {
-  position: relative;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -287,39 +285,26 @@ img {
   justify-content: space-around;
 }
 .icon-soc-fon {
-  fill: #4d5ae5;
-  transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-soc-fon:hover {
   fill: #404bbf;
 }
 .icon-soc-inst {
-  position: absolute;
-  z-index: 2;
-  top: 12;
-  left: -80px;
-  fill: #ffffff;
+  fill: chartreuse;
 }
 .icon-soc-twiter {
-  position: absolute;
-  z-index: 2;
-  top: 12px;
-  left: -15px;
-  fill: #ffffff;
+  fill: chartreuse;
 }
 .icon-soc-facebook {
-  position: absolute;
-  z-index: 2;
-  top: 12px;
-  right: -15px;
-  fill: #ffffff;
+  fill: chartreuse;
 }
 .icon-soc-linkedin {
-  position: absolute;
-  z-index: 2;
-  top: 12px;
-  right: -80px;
-  fill: #fff;
+  fill: chartreuse;
 }
 /*-- 4 PORTFOLIO ---*/
 
@@ -399,13 +384,13 @@ img {
   margin-left: 120px;
 }
 .social-media-tittle {
+  display: flex;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.013em;
   margin-bottom: 16px;
 }
-.social-media.soc {
-  position: relative;
+.social-media-list {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -413,34 +398,17 @@ img {
   gap: 16px;
   justify-content: space-around;
 }
-.social-media .soc .icon-soc-fon:hover {
-  fill: #31d0aa;
+.social-media-element {
+  display: flex;
+  padding: 10px 12px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
 }
-.social-media .icon-soc-inst {
-  position: absolute;
-  z-index: 2;
-  top: 12px;
-  left: -84px;
+.social-media-element:hover{
+  background-color: #31d0aa;
+}
+.social-media .icon-soc{
+  margin: 0;
+  padding: 0;
   fill: #ffffff;
-}
-.social-media .icon-soc-twiter {
-  position: absolute;
-  z-index: 2;
-  top: 12px;
-  left: -20px;
-  fill: #ffffff;
-}
-.social-media .icon-soc-facebook {
-  position: absolute;
-  z-index: 2;
-  top: 12px;
-  right: -20px;
-  fill: #ffffff;
-}
-.social-media .icon-soc-linkedin {
-  position: absolute;
-  z-index: 2;
-  top: 12px;
-  right: -84px;
-  fill: #fff;
 }
