@@ -344,6 +344,7 @@ padding-bottom: 24px;
 .footer-text {
   display: inline-block;
   max-width: 264px;
+  margin-right: 120px;
 }
 .footer-logo {
   font-weight: 700;
@@ -368,14 +369,15 @@ padding-bottom: 24px;
   display: flex;
   flex-wrap: wrap;
   width: 208px;
-  margin-left: 120px;
+ 
 }
 .social-media-tittle {
   display: flex;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.013em;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
+  color: #ffffff;
 }
 .social-media-list {
   display: flex;
@@ -398,5 +400,5 @@ padding-bottom: 24px;
   background-color: #31d0aa;
 }
 .icon-soc {
-  fill: #ffffff;
+  fill:#F4F4FD;
 }
