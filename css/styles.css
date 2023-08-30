@@ -319,13 +319,18 @@ img {
   width: calc((100% - 48px) / 3);
   height: 420px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.overlay {
+  
   position:relative; 
   overflow:hidden;
 }
-.portfolio-card:hover .department{
+/* .portfolio-card:hover .department */
+.overlay:hover .department{
   transform:translateY(0);} 
 
-.portfolio-card:hover{
+/* .portfolio-card:hover */
+.overlay:hover{
   box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .department {
