@@ -324,7 +324,7 @@ img {
   position:relative; 
   overflow:hidden;
 }
- .overlay:hover .overlay-p{
+ .portfolio-card:hover .overlay-p{
     transform:translateY(0);
   }
 
